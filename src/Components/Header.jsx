@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <nav className="p-1 bg-white w-full">
-            <div className="container mx-auto flex items-center font-medium justify-between w-full md:w-[60%]">
+            <div className="container mx-auto flex items-center font-medium justify-between w-full 2xl:w-[100%] xl:w-full lg:w-full md:w-full">
                 <div className={"z-50 p-3 md:w-auto w-full flex justify-between"}>
                     <img src={Logo} alt="logo" className="md:cursor-pointer h-[70px]" />
                     <div className={"md:hidden"} onClick={()=> setOpen(!open)}>
@@ -27,7 +27,7 @@ const Header = () => {
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="material-symbols:work-outline-sharp"></span>
-                            <a href="" className="pointer-cursor">About us</a>
+                            <a href="/about-us" className="pointer-cursor">About us</a>
                         </li>
                     </ul>
 
@@ -104,7 +104,7 @@ const Header = () => {
 
             {/*mobile navbar*/}
             <ul className={`md:hidden bg-white absolute overflow-auto w-full h-full bottom-0 py-24 pl-4 duration-500 ${ open ? 'left-0' : 'left-[-100%]' }`}>
-                <li href="" className="flex flex-row items-center justify-center text-md py-7">
+                <li href="/about-us" className="flex flex-row items-center justify-center text-md py-7">
                     <span className="iconify mx-2 text-xl" data-icon="material-symbols:work-outline-sharp"></span>
                     <a href="" className="pointer-cursor">About us</a>
                 </li>
