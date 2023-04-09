@@ -3,10 +3,10 @@ import dhaka from "../../Assets/Images/dhaka-team.webp"
 
 const Dhaka = ()=> {
     return (
-        <div className="my-32 bg-white p-[5rem]">
-            <div className="container mx-auto flex flex-row items-center justify-between">
+        <div className="my-32 bg-white md:p-[5rem]">
+            <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
                 <div className="p-5">
-                    <h1 className="text-4xl text-slate-700">
+                    <h1 className="text-2xl md:text-4xl text-slate-700 text-center w-full">
                         Meet Our Dhaka Team
                     </h1>
                     <p className="font-normal my-7">

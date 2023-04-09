@@ -10,8 +10,8 @@ import team8 from "../../Assets/Images/team-8.webp"
 
 const LondonGallery = ()=> {
     return (
-        <div>
-            <div className="container mx-auto grid grid-cols-4 gap-y-7">
+        <div className={"container mx-auto"}>
+            <div className="grid md:grid-cols-4 gap-y-7 gap-x-2 flex justify-center">
                 <img src={team1} className="rounded" alt="" />
                 <img src={team2} className="rounded" alt="" />
                 <img src={team3} className="rounded" alt="" />

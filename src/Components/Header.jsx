@@ -15,7 +15,10 @@ const Header = () => {
         <nav className="p-1 bg-white w-full">
             <div className="container mx-auto flex items-center font-medium justify-between w-full 2xl:w-[100%] xl:w-full lg:w-full md:w-full">
                 <div className={"z-50 p-3 md:w-auto w-full flex justify-between"}>
-                    <img src={Logo} alt="logo" className="md:cursor-pointer h-[70px]" />
+                    <a href="/">
+                        <img src={Logo} alt="logo" className="md:cursor-pointer h-[70px]" />
+                    </a>
+
                     <div className={"md:hidden"} onClick={()=> setOpen(!open)}>
                         {
                         open ? <IoClose className={"text-2xl my-5 md:hidden"} /> : <AiOutlineMenu className={"text-2xl my-5 md:hidden"} />
@@ -62,7 +65,7 @@ const Header = () => {
                         >
 
                             <span className="iconify mx-2 text-xl" data-icon="material-symbols:handshake-outline"></span>
-                            <a href="" className="pointer-cursor">Our Services</a>
+                            <a href="/our-portfolio" className="pointer-cursor">Our Services</a>
                         </li>
 
                         <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen2 ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen(true)} onMouseOut={()=>setIsOpen(false)}>
@@ -77,7 +80,7 @@ const Header = () => {
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="mdi:book-open-outline"></span>
-                            <a href="" className="pointer-cursor">Portfolio</a>
+                            <a href="/our-portfolio" className="pointer-cursor">Portfolio</a>
                         </li>
                     </ul>
                     <ul className="hover:bg-gray-100 p-3">
@@ -118,7 +121,7 @@ const Header = () => {
                 </li>
                 <li href="" className="flex flex-row items-center justify-center text-md py-7">
                     <span className="iconify mx-2 text-xl" data-icon="mdi:book-open-outline"></span>
-                    <a href="" className="pointer-cursor">Portfolio</a>
+                    <a href="/our-portfolio" className="pointer-cursor">Portfolio</a>
                 </li>
                 <li href="" className="flex flex-row items-center justify-center text-md py-7">
                     <span className="iconify mx-2 text-xl" data-icon="fa-solid:laptop-code"></span>
