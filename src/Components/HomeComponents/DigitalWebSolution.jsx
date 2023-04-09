@@ -10,7 +10,7 @@ const DigitalWebSolution = () => {
                 </p>
             </div>
             <div className={"flex flex-col md:flex-row items-center justify-center my-24 cursor-pointer p-5"}>
-                <div className={"card-section w-full md:w-[20%] p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
+                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -31,7 +31,7 @@ const DigitalWebSolution = () => {
                     </div>
                 </div>
 
-                <div className={"card-section w-full md:w-[20%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
+                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -52,7 +52,7 @@ const DigitalWebSolution = () => {
                     </div>
                 </div>
 
-                <div className={"card-section w-full md:w-[20%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
+                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -75,7 +75,7 @@ const DigitalWebSolution = () => {
             </div>
 
             <div className={"flex flex-col md:flex-row items-center justify-center my-[-100px] cursor-pointer p-5"}>
-                <div className={"card-section w-full md:w-[20%] p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
+                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -96,7 +96,7 @@ const DigitalWebSolution = () => {
                     </div>
                 </div>
 
-                <div className={"card-section w-full md:w-[20%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
+                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -117,7 +117,7 @@ const DigitalWebSolution = () => {
                     </div>
                 </div>
 
-                <div className={"card-section w-full md:w-[20%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
+                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
