@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Aboutus from "./Pages/Aboutus";
 import Portfolio from "./Pages/Portfolio";
+import Career from './Pages/Career';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" element={<Home />}/>
         <Route exact path="/about-us" element={<Aboutus />}/>
         <Route exact path="/our-portfolio" element={<Portfolio />} />
+        <Route exact path="/career" element={<Career />} />
       </Routes>
       <Footer />
     </div>

@@ -1,27 +1,27 @@
 import React from "react";
-import eLearning from "../../Assets/Icons/elearning.webp"
-import eLearningImg from "../../Assets/Porfolio/elearning.webp"
+import eLearning from "../../Assets/Icons/networking.webp"
+import eLearningImg from "../../Assets/Porfolio/enetworking.webp"
 import {FaCheck} from "react-icons/fa"
 
-const ELearning = ()=> {
+const Enetworking = ()=> {
     return (
         <div>
-            <h1 className="text-center text-5xl text-slate-700 font-bold">e-Learning Portfolios</h1>
+            <h1 className="text-center text-5xl text-slate-700 font-bold">e-Networking Portfolios</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 my-7 bg-white">
 
                 <img src={eLearningImg} alt="" />
                 
-                <div className="flex flex-col items-start justify-center w-full md:w-[75%]">
+                <div className="flex flex-col items-start justify-center w-full md:w-[75%] md:mx-14">
                     
                         <img src={eLearning} className="h-7 mx-4" alt="" />
                         <p className="font-bold text-xl text-slate-700">
-                            e-Learning
+                        e-Networking
                         </p>
                         <p className="text-2xl font-bold text-slate-800">
-                            Zimark Education | Learn Anywhere, Any Time
+                        All in one Networking Platform
                         </p>
                         <p>
-                            Zimark Education is a platform help students learn different subjects and topics based on their own pace through high-quality courses
+                        Our e-Networking software can increase interaction between your brand and customers. As a result, they will feel connected to your product's brand and build loyalty and have a stronger, more emotional connection with your brand.
                         </p>
                      
                         <table className="border my-7 w-full">
@@ -59,8 +59,8 @@ const ELearning = ()=> {
                             </tbody>
                             </table>
 
-                            <a href="https://zimark.cn/" className="text-2xl font-bold text-slate-700">
-                                Zimark Education
+                            <a href="https://orbit.ggtasker.co.uk/" className="text-2xl font-bold text-slate-700">
+                            Orbit
                             </a>
                 </div>
             </div>
@@ -68,4 +68,4 @@ const ELearning = ()=> {
     )
 }
 
-export default ELearning
+export default Enetworking

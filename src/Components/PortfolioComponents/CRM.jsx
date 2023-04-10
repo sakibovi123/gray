@@ -1,27 +1,27 @@
 import React from "react";
-import eLearning from "../../Assets/Icons/elearning.webp"
-import eLearningImg from "../../Assets/Porfolio/elearning.webp"
+import crm from "../../Assets/Icons/crm.webp"
+import crmImg from "../../Assets/Porfolio/crm.webp"
 import {FaCheck} from "react-icons/fa"
 
-const ELearning = ()=> {
+const CRM = ()=> {
     return (
         <div>
-            <h1 className="text-center text-5xl text-slate-700 font-bold">e-Learning Portfolios</h1>
+            <h1 className="text-center text-5xl text-slate-700 font-bold">CRM Portfolios</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 my-7 bg-white">
 
-                <img src={eLearningImg} alt="" />
+                <img src={crmImg} alt="" />
                 
                 <div className="flex flex-col items-start justify-center w-full md:w-[75%]">
                     
-                        <img src={eLearning} className="h-7 mx-4" alt="" />
+                        <img src={crm} className="h-7 mx-4" alt="" />
                         <p className="font-bold text-xl text-slate-700">
-                            e-Learning
+                        CRM
                         </p>
                         <p className="text-2xl font-bold text-slate-800">
-                            Zimark Education | Learn Anywhere, Any Time
+                        Tommy, Smart tool for your business
                         </p>
                         <p>
-                            Zimark Education is a platform help students learn different subjects and topics based on their own pace through high-quality courses
+                        Tommy is a web-based CRM software that will help operate your business efficiently. If you are looking for easy-to-use and affordable CRM software, then Tommy is the right choice for you.
                         </p>
                      
                         <table className="border my-7 w-full">
@@ -68,4 +68,4 @@ const ELearning = ()=> {
     )
 }
 
-export default ELearning
+export default CRM

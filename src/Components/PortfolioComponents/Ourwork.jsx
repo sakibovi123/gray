@@ -16,7 +16,7 @@ const Ourwork = ()=> {
                 Here are just a few of our latest projects.
             </p>
 
-            <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-col md:flex-row items-center justify-center">
                 <div className="flex flex-row items-center justify-center mx-3">
                     <img src={elearning} className="h-7 mx-3" alt="" />
                     <p>e-Learning</p>

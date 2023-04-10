@@ -12,7 +12,7 @@ const Header = () => {
     const [isOpen2, setIsOpen2] = useState(false)
 
     return (
-        <nav className="p-1 bg-white w-full">
+        <nav className="p-1 bg-white w-full md:fixed">
             <div className="container mx-auto flex items-center font-medium justify-between w-full 2xl:w-[100%] xl:w-full lg:w-full md:w-full">
                 <div className={"z-50 p-3 md:w-auto w-full flex justify-between"}>
                     <a href="/">
@@ -86,7 +86,7 @@ const Header = () => {
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="fa-solid:laptop-code"></span>
-                            <a href="" className="pointer-cursor">Career</a>
+                            <a href="/career" className="pointer-cursor">Career</a>
                         </li>
                     </ul>
                     <ul className="hover:bg-gray-100 p-3">
@@ -125,7 +125,7 @@ const Header = () => {
                 </li>
                 <li href="" className="flex flex-row items-center justify-center text-md py-7">
                     <span className="iconify mx-2 text-xl" data-icon="fa-solid:laptop-code"></span>
-                    <a href="" className="pointer-cursor">Career</a>
+                    <a href="/career" className="pointer-cursor">Career</a>
                 </li>
                 <li href="" className="flex flex-row items-center justify-center text-md py-7">
                     <span className="iconify mx-2 text-xl" data-icon="mdi:blog-outline"></span>
