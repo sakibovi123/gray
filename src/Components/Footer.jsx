@@ -18,10 +18,10 @@ const Footer = () => {
             </div>
             <div className={"flex flex-col items-start justify-between"}>
                 <div className={"w-full bg-gray-200 md:h-[120px] flex flex-col md:flex-row items-center justify-center"}>
-                    <a href="" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/privacy-and-legal" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Privacy & Legal
                     </a>
-                    <a href="" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/story-of-gray" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Story of Gray
                     </a>
                     <a href="" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>

@@ -36,7 +36,7 @@ const Header = () => {
                             onMouseOut={()=>setIsOpen(false)}
                         >
                             <span className="iconify mx-2 text-xl" data-icon="tabler:award"></span>
-                            <a href="" className="pointer-cursor">Our Solutions</a>
+                            <a href="/our-solutions" className="pointer-cursor">Our Solutions</a>
 
 
                         </li>
