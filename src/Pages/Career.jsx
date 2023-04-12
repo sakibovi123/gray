@@ -3,6 +3,7 @@ import BannerCareer from "../Components/CareerComponents/BannerCareer";
 import { Benefits } from "../Components/CareerComponents/Benefits";
 import Howto from "../Components/CareerComponents/Howto";
 import { WhyJoinGG } from "../Components/CareerComponents/WhyJoinGG";
+import { AreyouReady } from "../Components/CareerComponents/AreyouReady";
 
 
 const Career = ()=> {
@@ -12,6 +13,7 @@ const Career = ()=> {
             <Benefits />
             <WhyJoinGG />
             <Howto/>
+            <AreyouReady />
         </div>
     )
 }

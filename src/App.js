@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Aboutus from "./Pages/Aboutus";
 import Portfolio from "./Pages/Portfolio";
 import Career from './Pages/Career';
+import { Blog } from './Pages/Blog';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/about-us" element={<Aboutus />}/>
         <Route exact path="/our-portfolio" element={<Portfolio />} />
         <Route exact path="/career" element={<Career />} />
+        <Route exact path="/blogs" element={<Blog />}/>
       </Routes>
       <Footer />
     </div>

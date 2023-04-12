@@ -68,7 +68,7 @@ const Header = () => {
                             <a href="/our-portfolio" className="pointer-cursor">Our Services</a>
                         </li>
 
-                        <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen2 ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen(true)} onMouseOut={()=>setIsOpen(false)}>
+                        <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen2 ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen2(true)} onMouseOut={()=>setIsOpen2(false)}>
                             <li className={"hover:bg-gray-50 p-3"}>Project Consultancy</li>
                             <li className={"hover:bg-gray-50 p-3"}>Project Management</li>
                             <li className={"hover:bg-gray-50 p-3"}>Design & Branding</li>
@@ -92,7 +92,7 @@ const Header = () => {
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="mdi:blog-outline"></span>
-                            <a href="" className="pointer-cursor">Blog</a>
+                            <a href="/blogs" className="pointer-cursor">Blog</a>
                         </li>
                     </ul>
                 </div>
@@ -129,7 +129,7 @@ const Header = () => {
                 </li>
                 <li href="" className="flex flex-row items-center justify-center text-md py-7">
                     <span className="iconify mx-2 text-xl" data-icon="mdi:blog-outline"></span>
-                    <a href="" className="pointer-cursor">Blog</a>
+                    <a href="/blogs" className="pointer-cursor">Blog</a>
                 </li>
             </ul>
 

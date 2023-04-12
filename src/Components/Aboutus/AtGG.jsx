@@ -11,7 +11,7 @@ export const AtGG = () => {
             At GGLink, We Are
         </h1>
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
-            <div id="cardBody" className="flex flex-col items-center justify-center h-[250px] rounded md:w-[25%] bg-white p-5 shadow-2xl my-4 md:my-0 mx-4">
+            <div id="cardBody" className="transition hover:scale-125 cursor-pointer flex flex-col items-center justify-center h-[250px] rounded md:w-[25%] bg-white p-5 shadow-2xl my-4 md:my-0 mx-4">
                 <div id="iconSection" className="py-5">
                     <img src={customer} alt={customer} />
                 </div>
@@ -27,7 +27,7 @@ export const AtGG = () => {
                 </div>
             </div>
 
-            <div id="cardBody" className="flex flex-col items-center justify-center h-[250px] rounded md:w-[25%] bg-white p-5 shadow-2xl my-4 md:my-0 mx-4">
+            <div id="cardBody" className="transition hover:scale-125 cursor-pointer flex flex-col items-center justify-center h-[250px] rounded md:w-[25%] bg-white p-5 shadow-2xl my-4 md:my-0 mx-4">
                 <div id="iconSection" className="py-5">
                     <img src={believe} alt={customer} />
                 </div>
@@ -43,7 +43,7 @@ export const AtGG = () => {
                 </div>
             </div>
 
-            <div id="cardBody" className="flex flex-col items-center justify-center h-[250px] rounded md:w-[25%] bg-white p-5 shadow-2xl my-4 md:my-0 mx-4">
+            <div id="cardBody" className="transition hover:scale-125 cursor-pointer flex flex-col items-center justify-center h-[250px] rounded md:w-[25%] bg-white p-5 shadow-2xl my-4 md:my-0 mx-4">
                 <div id="iconSection" className="py-5">
                     <img src={love} alt={customer} />
                 </div>

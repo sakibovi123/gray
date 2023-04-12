@@ -10,7 +10,7 @@ const DigitalWebSolution = () => {
                 </p>
             </div>
             <div className={"flex flex-col md:flex-row items-center justify-center my-24 cursor-pointer p-5"}>
-                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
+                <div className={"card-section w-full md:w-[22%] p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -25,13 +25,13 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-2xl hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
                 </div>
 
-                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
+                <div className={"card-section w-full md:w-[22%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -46,13 +46,13 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-2xl hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
                 </div>
 
-                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
+                <div className={"card-section w-full md:w-[22%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -67,7 +67,7 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-2xl hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
@@ -75,7 +75,7 @@ const DigitalWebSolution = () => {
             </div>
 
             <div className={"flex flex-col md:flex-row items-center justify-center my-[-100px] cursor-pointer p-5"}>
-                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
+                <div className={"card-section w-full md:w-[22%] p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -90,13 +90,13 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-2xl hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
                 </div>
 
-                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
+                <div className={"card-section w-full md:w-[22%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -111,13 +111,13 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-2xl hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
                 </div>
 
-                <div className={"card-section w-full md:w-[25%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
+                <div className={"card-section w-full md:w-[22%] p-3 flex flex-col items-center justify-center rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2 transition-auto"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
                     </div>
@@ -132,7 +132,7 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-2xl hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>

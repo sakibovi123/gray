@@ -52,8 +52,8 @@ const Banner = () => {
     }, [currentIndex]);
 
     return (
-        <div className={"max-w-[100%] h-[600px] sm:h-[800px] w-full m-auto group"}>
-            <div style={{ backgroundImage: `url(${slides[currentIndex].url})`}} className={"w-full h-full bg-center bg-cover duration-600"}>
+        <div className={"max-w-[100%] h-[800px] sm:h-[800px] w-full m-auto group"}>
+            <div style={{ backgroundImage: `url(${slides[currentIndex].url})`}} className={"w-full h-full bg-center bg-cover duration-600 md:py-24"}>
                 <div className={"flex flex-col px-5 sm:px-32 items-start justify-center py-32 sm:py-52"}>
                     <p className={"text-white font-bold text-4xl sm:text-6xl w-full sm:w-[50%]"}>
                         {slides[currentIndex].title}
