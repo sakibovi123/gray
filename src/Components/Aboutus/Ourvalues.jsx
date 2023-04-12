@@ -5,7 +5,7 @@ import handshake from '../../Assets/Images/respect-accountability-honesty.webp'
 
 const Ourvalues = () => {
     return (
-        <div className="container mx-auto w-full md:w-[80%]">
+        <div className="container mx-auto w-full md:w-[60%]">
             <div className={"text-center"}>
                 <h1 className={"font-bold text-5xl text-slate-800"}>
                 Our Values

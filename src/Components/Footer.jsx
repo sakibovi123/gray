@@ -16,7 +16,7 @@ const Footer = () => {
                 </a>
 
             </div>
-            <div className={"flex flex-col items-start justify-between"}>
+            <div className={"flex flex-col items-start justify-between -my-[5rem]"}>
                 <div className={"w-full bg-gray-200 md:h-[120px] flex flex-col md:flex-row items-center justify-center"}>
                     <a href="/privacy-and-legal" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Privacy & Legal
@@ -38,7 +38,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div id={"Socials-copy"} className={"border-t-2 w-full flex flex-row items-center justify-around bg-gray-200 p-5 border-t-2 border-gray-300"}>
+                <div id={"Socials-copy"} className={"border-t-2 w-full flex flex-row items-center justify-around bg-gray-200 p-5 border-gray-300"}>
                     <p className={"font-normal text-sm md:text-lg"}>
                         © Gray 2023, All right received.
                     </p>

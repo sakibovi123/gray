@@ -14,7 +14,7 @@ import teamdhk8 from "../../Assets/Images/Dhaka/team-8.webp"
 const DhakaGallery = ()=> {
     return (
         <div>
-            <div className="container mx-auto grid grid-cols-4 gap-y-7">
+            <div className="container mx-auto grid md:grid-cols-4 gap-y-7 flex justify-center">
                 <img src={teamdhk1} className="rounded" alt="" />
                 <img src={teamdhk2} className="rounded" alt="" />
                 <img src={teamdhk3} className="rounded" alt="" />
