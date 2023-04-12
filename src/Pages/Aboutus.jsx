@@ -8,6 +8,7 @@ import Dhaka from "../Components/Aboutus/Dhaka";
 import LondonGallery from "../Components/Aboutus/LondonGallery";
 import DhakaGallery from "../Components/Aboutus/DhakaGallery";
 import FaqAbout from "../Components/Aboutus/FaqAboutus";
+import { AtGG } from "../Components/Aboutus/AtGG";
 
 const Aboutus = () => {
     return (
@@ -18,6 +19,7 @@ const Aboutus = () => {
             <Ourvalues />
             <London />
             <LondonGallery />
+            <AtGG />
             <Dhaka />
             <DhakaGallery />
             <FaqAbout />
