@@ -12,7 +12,7 @@ const Header = () => {
     const [isOpen2, setIsOpen2] = useState(false)
 
     return (
-        <nav className="p-1 bg-white w-full md:fixed">
+        <nav className="p-1 bg-white w-full top-0 md:sticky">
             <div className="container mx-auto flex items-center font-medium justify-between w-full 2xl:w-[100%] xl:w-full lg:w-full md:w-full">
                 <div className={"z-50 p-3 md:w-auto w-full flex justify-between"}>
                     <a href="/">

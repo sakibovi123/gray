@@ -8,6 +8,8 @@ import Aboutus from "./Pages/Aboutus";
 import Portfolio from "./Pages/Portfolio";
 import Career from './Pages/Career';
 import { Blog } from './Pages/Blog';
+import { StoryOfGray } from './Pages/StoryOfGray';
+import Partnership from './Pages/Partnership';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route exact path="/our-portfolio" element={<Portfolio />} />
         <Route exact path="/career" element={<Career />} />
         <Route exact path="/blogs" element={<Blog />}/>
+        <Route exact path="/story-of-gray" element={<StoryOfGray />} />
+        <Route exact path="/partnership" element={<Partnership />}/>
       </Routes>
       <Footer />
     </div>
