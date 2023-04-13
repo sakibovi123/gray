@@ -10,6 +10,7 @@ import Career from './Pages/Career';
 import { Blog } from './Pages/Blog';
 import { StoryOfGray } from './Pages/StoryOfGray';
 import Partnership from './Pages/Partnership';
+import { Contact } from './Pages/Contact';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/blogs" element={<Blog />}/>
         <Route exact path="/story-of-gray" element={<StoryOfGray />} />
         <Route exact path="/partnership" element={<Partnership />}/>
+        <Route exact path="/contact-us" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

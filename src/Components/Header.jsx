@@ -10,6 +10,7 @@ const Header = () => {
     const [open, setOpen] = useState()
     const [isOpen, setIsOpen] = useState(false)
     const [isOpen2, setIsOpen2] = useState(false)
+    const [isOpen3, setIsOpen3] = useState(false)
 
     return (
         <nav className="p-1 bg-white w-full top-0 md:sticky">
@@ -77,6 +78,25 @@ const Header = () => {
                             <li className={"hover:bg-gray-50 p-3"}>Hosting & Maintenance</li>
                         </ul>
                     </ul>
+
+                    <ul className="hover:bg-gray-100 p-3">
+                        <li href="" className="flex flex-row items-center justify-between text-md"
+                            onMouseOver={()=>setIsOpen3(true)}
+                            onMouseOut={()=>setIsOpen3(false)}
+                        >
+                            <span className="iconify mx-2 text-xl" data-icon="mdi:book-open-outline"></span>
+                            <a href="/our-portfolio" className="pointer-cursor">Digital Marketing</a>
+                        </li>
+                        <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen3 ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen3(true)} onMouseOut={()=>setIsOpen3(false)}>
+                            <li className={"hover:bg-gray-50 p-3"}>Project Consultancy</li>
+                            <li className={"hover:bg-gray-50 p-3"}>Project Management</li>
+                            <li className={"hover:bg-gray-50 p-3"}>Design & Branding</li>
+                            <li className={"hover:bg-gray-50 p-3"}>Development</li>
+                            <li className={"hover:bg-gray-50 p-3"}>Testing & Debugging</li>
+                            <li className={"hover:bg-gray-50 p-3"}>Hosting & Maintenance</li>
+                        </ul>
+                    </ul>
+
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="mdi:book-open-outline"></span>
@@ -97,7 +117,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="">
-                    <a href="" className="duration-500 delay-200 hidden md:flex items-center justify-between font-normal border-2 border-gray-600 p-3 rounded-2xl hover:bg-gray-600 hover:text-white">
+                    <a href="/contact-us" className="duration-500 delay-200 hidden md:flex items-center justify-between font-normal border-2 border-gray-600 p-3 rounded-2xl hover:bg-gray-600 hover:text-white">
                         <span className="iconify text-2xl" data-icon="material-symbols:phone-enabled-outline"></span>
                         Talk To An Expert
                     </a>

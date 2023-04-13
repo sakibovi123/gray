@@ -33,7 +33,7 @@ const Footer = () => {
                     <a href="" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Send an Email
                     </a>
-                    <a href="" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/contact-us" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Contact us
                     </a>
                 </div>
