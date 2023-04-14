@@ -19,6 +19,11 @@ import { Contact } from './Pages/Contact';
 
 import Outsource from './Pages/Outsource';
 import ElearningOurSolutions from './Pages/ElearningOurSolutions';
+import EcommerceOurSolutions from './Pages/EcommerceOurSolutions';
+import CustomerRelationshipManagement from './Pages/CustomerRelationshipManagement';
+import BookingSystemsOurSolutions from './Pages/BookingSystemsOurSolution';
+import HealthCareSystems from './Pages/HealthCareSystems';
+import NetworkPlatforms from './Pages/NetworkPlatforms';
 
 
 function App() {
@@ -42,6 +47,11 @@ function App() {
 
           <Route exact path="/outsource" element={<Outsource />} />
           <Route exact path="/elearning-our-solutions" element={<ElearningOurSolutions />} />
+          <Route exact path="/ecommerce-our-solutions" element={<EcommerceOurSolutions />} />
+          <Route exact path="/customer-relationship-management-our-solutions" element={<CustomerRelationshipManagement />} />
+          <Route exact path="/booking-systems-our-solutions" element={<BookingSystemsOurSolutions />} />
+          <Route exact path="/health-care-our-solutions" element={<HealthCareSystems />} />
+          <Route exact path="/network-section-our-solutions" element={<NetworkPlatforms />} />
         </Routes>
       <Footer />
     </div>

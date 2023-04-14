@@ -8,6 +8,7 @@ import BenefitsOfOutsourcing from "../Components/Outsource/BenefitsOfOutsourcing
 import TechnologiesWeUseOutsource from "../Components/Outsource/TechnologiesWeUseOutsource";
 import CaseStudiesOutsource from "../Components/Outsource/CaseStudiesOutsiurce";
 import OutsourceTopSoftwareDevelopers from "../Components/Outsource/OutsourceTopSoftwareDevelopers";
+import OurBlogOutsource from "../Components/Outsource/OurBlogOutsource";
 const Outsource = () => {
   return(
     <div>
@@ -20,6 +21,7 @@ const Outsource = () => {
       <TechnologiesWeUseOutsource />
       <CaseStudiesOutsource />
       <OutsourceTopSoftwareDevelopers />
+      <OurBlogOutsource />
     </div>
   );
 }

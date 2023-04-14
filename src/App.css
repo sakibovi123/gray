@@ -6,6 +6,8 @@ body{
 
 #about-us-banner{
   background-image: url("Assets/Images/e-Commerce-3-new.jpg");
+  background-color: gray;
+  background-blend-mode: multiply;
 }
 
 
@@ -21,5 +23,43 @@ body{
 
 #banner-our-solutions {
   background-image: url("Assets/Images/banner-image-our-solutions-page.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-elearning-our-solutions {
+  background-image: url("Assets/Images/e-learning-banner-image-our-solutions.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-ecommerce-our-solutions {
+  background-image: url("Assets/Images/ecommerce-banner-image-our-solutions.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-crm {
+  background-image: url("Assets/Images/crm-banner-image-our-solutions.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-booking--our-solutions {
+  background-image: url("Assets/Images/ebooking-banner-image-our-solutions.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-healthcare-our-solutions {
+  background-image: url("Assets/Images/ehealth-banner-our-solutions.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-network-platforms-our-solutions {
+  background-image: url("Assets/Images/enetworking-banner-image-our-solutions.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
 }
 

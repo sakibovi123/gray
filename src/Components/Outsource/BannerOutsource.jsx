@@ -5,7 +5,7 @@ import journeyImageBannerStoryOfGray from "../../Assets/Images/journey-image-Ban
 export default function BannerOutsource() {
   return (
     <div className="w-full bg-gray-200">
-      <div className='py-10 flex justify-center items-center md:pt-32 w-9/12 lg:w-8/12 xl:w-6/12 mx-auto'>
+      <div className='py-10 flex justify-center items-center md:pt-32 w-9/12 lg:w-8/12 xl:w-5/12 mx-auto'>
         <div className="w-full px-3">
           <label className="block text-sm" htmlFor="firstName">First name:</label>
           <input className='w-full border border-solid border-gray-400 border-2 rounded-sm px-2 py-1 mb-4' id="firstName" type="text" />

@@ -28,7 +28,7 @@ const OutsourceTopSoftwareDevelopers = () => {
                 </div>
             </div>
 
-            <div id="cardBody" className="bg-orange-400 w-11/12 flex flex-col items-center justify-end h-[250px] md:w-[25%] bg-white p-5 my-4 md:my-0 md:h-[350px]">
+            <div id="cardBody" className="bg-orange-500 w-11/12 flex flex-col items-center justify-end h-[250px] md:w-[25%] bg-white p-5 my-4 md:my-0 md:h-[350px]">
                 <div id="titleSection" className="text-slate-50 md:mb-16">
                     <h1 className="text-lg font-semibold text-center mb-3 md:text-2xl">
                     <span>&#8364;</span>25
