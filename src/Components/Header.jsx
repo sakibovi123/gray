@@ -47,7 +47,7 @@ const Header = () => {
 
                             <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen(true)} onMouseOut={()=>setIsOpen(false)}>
                                 <li className={"hover:bg-gray-50 p-3"}>E-Ecommerce</li>
-                                <li className={"hover:bg-gray-50 p-3"}>E-Learning</li>
+                                <a href="/elearning-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Learning</li></a>
                                 <li className={"hover:bg-gray-50 p-3"}>Customer Relationship Management</li>
                                 <li className={"hover:bg-gray-50 p-3"}>Booking Systems</li>
                                 <li className={"hover:bg-gray-50 p-3"}>HealthCare Systems</li>

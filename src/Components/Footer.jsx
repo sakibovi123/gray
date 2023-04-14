@@ -24,7 +24,7 @@ const Footer = () => {
                     <a href="/story-of-gray" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Story of Gray
                     </a>
-                    <a href="" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/outsource" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Outsource
                     </a>
                     <a href="" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>

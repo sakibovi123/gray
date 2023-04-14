@@ -1,26 +1,24 @@
-import React from "react";
+import React from 'react'
+import portfolio from "../../Assets/Images/portfolio.png"
 import journeyImageBannerStoryOfGray from "../../Assets/Images/journey-image-BannerStoryOfGray.webp"
 
-const BannerStoryOfGray = () => {
-  return(
+export default function BannerStoryOfGray() {
+  return (
     <div>
-      <div className={"bg-gray-200 w-full h-screen lg:flex lg:h-[565px] lg:items-center lg:justify-between"}>
-        <div id={"text"} className={" h-1/2 flex flex-col justify-center items-center lg:h-full lg:w-6/12 "}>
-          <p className={"text-3xl font-semibold text-slate-800 mb-16 px-2"}>
-            How it all started
-          </p>
+        <div className={"bg-gray-100 md:w-full py-24"}>
+            <div className={"flex flex-col md:flex-row items-center justify-center"}>
+                <div className={"w-full mx-32"}>
+                    <h1 className={"text-3xl md:text-5xl"}>
+                      How it all started
 
-          <p className="text-center px-2">
-            GGLink officially started in 2005 in London as a graphic design company
-          </p>
+                    </h1>
+                    <p className={"text-md font-normal my-4"}>
+                     GGLink officially started in 2005 in London as a graphic design company
+                    </p>
+                </div>
+                <img src={journeyImageBannerStoryOfGray} className={"w-full bg-center bg-cover"} alt=""/>
+            </div>
         </div>
-
-        <div id="image" className="w-full h-1/2 lg:h-full lg:w-5/12">
-          <img className={"w-full"} src={journeyImageBannerStoryOfGray} alt="" />
-        </div>
-      </div>
     </div>
-  );
-};
-
-export default BannerStoryOfGray;
+  )
+}

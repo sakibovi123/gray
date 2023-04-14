@@ -12,6 +12,8 @@ import StoryOfGray from './Pages/StoryOfGray';
 
 import Portfolio from "./Pages/Portfolio";
 import Career from './Pages/Career';
+import Outsource from './Pages/Outsource';
+import ElearningOurSolutions from './Pages/ElearningOurSolutions';
 
 
 
@@ -28,7 +30,8 @@ function App() {
         <Route exact path="/story-of-gray" element={<StoryOfGray />}/>
         <Route exact path="/our-portfolio" element={<Portfolio />} />
         <Route exact path="/career" element={<Career />} />
-
+        <Route exact path="/outsource" element={<Outsource />} />
+        <Route exact path="/elearning-our-solutions" element={<ElearningOurSolutions />} />
       </Routes>
       <Footer />
     </div>
