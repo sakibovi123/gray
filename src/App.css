@@ -63,3 +63,45 @@ body{
   background-blend-mode: multiply;
 }
 
+#banner-services {
+  background-image: url("Assets/Images/our-services-banner.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-consultancy-platforms-our-solutions {
+  background-image: url("Assets/Images/consultancy-banner-our-services.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-management-platforms-our-solutions {
+  background-image: url("Assets/Images/management-banner-our-services.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-design-platforms-our-solutions {
+  background-image: url("Assets/Images/banner-design.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-development-platforms-our-solutions {
+  background-image: url("Assets/Images/development-banner.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-testing-platforms-our-services {
+  background-image: url("Assets/Images/debugging-banner.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
+#banner-maintenance-platforms-our-solutions {
+  background-image: url("Assets/Images/maintenance-banner.webp");
+  background-color: gray;
+  background-blend-mode: multiply;
+}
+
