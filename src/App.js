@@ -24,6 +24,14 @@ import CustomerRelationshipManagement from './Pages/CustomerRelationshipManageme
 import BookingSystemsOurSolutions from './Pages/BookingSystemsOurSolution';
 import HealthCareSystems from './Pages/HealthCareSystems';
 import NetworkPlatforms from './Pages/NetworkPlatforms';
+import OurServices from './Pages/OurServices';
+import PageConsultancy from './Pages/ProjectConsultancy';
+import ProjectManagement from './Pages/ProjectManagement';
+import ProjectConsultancy from './Pages/ProjectConsultancy';
+import DesignAndBranding from './Pages/DesignAndBranding';
+import Development from './Pages/Development';
+import TestingAndDebugging from './Pages/TestingAndDebugging';
+import HostingAndMaintenance from './Pages/HostingAndMaintenance';
 
 
 function App() {
@@ -52,6 +60,13 @@ function App() {
           <Route exact path="/booking-systems-our-solutions" element={<BookingSystemsOurSolutions />} />
           <Route exact path="/health-care-our-solutions" element={<HealthCareSystems />} />
           <Route exact path="/network-section-our-solutions" element={<NetworkPlatforms />} />
+          <Route exact path="/our-services" element={<OurServices />} />
+          <Route exact path="/project-consultancy-our-services" element={<ProjectConsultancy />} />
+          <Route exact path="/project-management-our-services" element={<ProjectManagement />} />
+          <Route exact path="/design-and-our-services" element={<DesignAndBranding />} />
+          <Route exact path="/development-our-services" element={<Development />} />
+          <Route exact path="/testing-and-debugging-our-services" element={<TestingAndDebugging />} />
+          <Route exact path="/hosting-and-maintenance-our-services" element={<HostingAndMaintenance />} />
         </Routes>
       <Footer />
     </div>

@@ -66,16 +66,16 @@ const Header = () => {
                         >
 
                             <span className="iconify mx-2 text-xl" data-icon="material-symbols:handshake-outline"></span>
-                            <a href="/our-portfolio" className="pointer-cursor">Our Services</a>
+                            <a href="/our-services" className="pointer-cursor">Our Services</a>
                         </li>
 
                         <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen2 ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen2(true)} onMouseOut={()=>setIsOpen2(false)}>
-                            <li className={"hover:bg-gray-50 p-3"}>Project Consultancy</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Project Management</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Design & Branding</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Development</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Testing & Debugging</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Hosting & Maintenance</li>
+                            <a href="/project-consultancy-our-services"><li className={"hover:bg-gray-50 p-3"}>Project Consultancy</li></a>
+                            <a href="/project-management-our-services"><li className={"hover:bg-gray-50 p-3"}>Project Management</li></a>
+                            <a href="/design-and-our-services"><li className={"hover:bg-gray-50 p-3"}>Design & Branding</li></a>
+                            <a href="/development-our-services"><li className={"hover:bg-gray-50 p-3"}>Development</li></a>
+                            <a href="/testing-and-debugging-our-services"><li className={"hover:bg-gray-50 p-3"}>Testing & Debugging</li></a>
+                            <a href="/hosting-and-maintenance-our-services"><li className={"hover:bg-gray-50 p-3"}>Hosting & Maintenance</li></a>
                         </ul>
                     </ul>
 
