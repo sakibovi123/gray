@@ -10,7 +10,7 @@ const Footer = () => {
                 <p className={"text-2xl md:text-5xl text-center font-semibold text-slate-800"}>
                     Looking for a reliable technology partner to grow your business?
                 </p>
-                <a href="" className="md:my-9 duration-500 delay-200 hidden md:flex items-center justify-between font-normal border-2 border-gray-600 p-3 rounded-2xl hover:bg-gray-600 hover:text-white">
+                <a href="" className="md:my-9 duration-500 delay-200 hidden md:flex items-center justify-between font-normal border-2 border-gray-600 p-3 rounded-full hover:bg-gray-600 hover:text-white">
                     <span className="iconify text-2xl" data-icon="material-symbols:phone-enabled-outline"></span>
                     Talk To An Expert
                 </a>

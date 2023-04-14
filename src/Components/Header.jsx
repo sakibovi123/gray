@@ -14,20 +14,20 @@ const Header = () => {
 
     return (
         <nav className="p-1 bg-white w-full top-0 md:sticky">
-            <div className="container mx-auto flex items-center font-medium justify-between w-full 2xl:w-[100%] xl:w-full lg:w-full md:w-full">
+            <div className="container mx-auto flex items-center font-medium justify-between w-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full">
                 <div className={"z-50 p-3 md:w-auto w-full flex justify-between"}>
                     <a href="/">
                         <img src={Logo} alt="logo" className="md:cursor-pointer h-[70px]" />
                     </a>
 
-                    <div className={"md:hidden"} onClick={()=> setOpen(!open)}>
+                    <div className={"md:hidden lg:hidden"} onClick={()=> setOpen(!open)}>
                         {
                         open ? <IoClose className={"text-2xl my-5 md:hidden"} /> : <AiOutlineMenu className={"text-2xl my-5 md:hidden"} />
                         }
 
                     </div>
                 </div>
-                <div className="md:flex hidden items-center justify-center font-normal">
+                <div className="hidden md:hidden lg:flex items-center justify-center font-normal">
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="material-symbols:work-outline-sharp"></span>
@@ -117,7 +117,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="">
-                    <a href="/contact-us" className="duration-500 delay-200 hidden md:flex items-center justify-between font-normal border-2 border-gray-600 p-3 rounded-2xl hover:bg-gray-600 hover:text-white">
+                    <a href="/contact-us" className="duration-500 delay-200 hidden lg:flex md:hidden items-center justify-between font-normal border-2 border-gray-600 p-3 rounded-full hover:bg-gray-600 hover:text-white">
                         <span className="iconify text-2xl" data-icon="material-symbols:phone-enabled-outline"></span>
                         Talk To An Expert
                     </a>
@@ -126,7 +126,7 @@ const Header = () => {
             </div>
 
             {/*mobile navbar*/}
-            <ul className={`md:hidden bg-white absolute overflow-auto w-full h-full bottom-0 py-24 pl-4 duration-500 ${ open ? 'left-0' : 'left-[-100%]' }`}>
+            <ul className={`md:hidden lg:hidden bg-white absolute overflow-auto w-full h-full bottom-0 py-24 pl-4 duration-500 ${ open ? 'left-0' : 'left-[-100%]' }`}>
                 <li href="/about-us" className="flex flex-row items-center justify-center text-md py-7">
                     <span className="iconify mx-2 text-xl" data-icon="material-symbols:work-outline-sharp"></span>
                     <a href="" className="pointer-cursor">About us</a>
