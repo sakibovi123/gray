@@ -9,7 +9,7 @@ const DigitalWebSolution = () => {
                     We craft exceptional digital web solutions
                 </p>
             </div>
-            <div className={"container mx-auto flex flex-col md:flex-row items-center justify-center my-24 cursor-pointer p-5"}>
+            <div className={"container mx-auto w-full md:w-[65%] flex flex-col md:flex-row items-center justify-center my-24 cursor-pointer p-5"}>
                 <div className={"card-section w-full md:w-[22%] lg:w-full p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
@@ -74,7 +74,7 @@ const DigitalWebSolution = () => {
                 </div>
             </div>
 
-            <div className={"container mx-auto flex flex-col md:flex-row items-center justify-center my-[-100px] cursor-pointer p-5"}>
+            <div className={"container mx-auto w-full md:w-[65%] flex flex-col md:flex-row items-center justify-center my-[-100px] cursor-pointer p-5"}>
                 <div className={"card-section w-full md:w-[22%] lg:w-full p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>

@@ -64,7 +64,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"experienced"} className={"flex mb-6"}>
-              <div id={"icon"} className={"bg-[#FAECCF] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#FAECCF] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <AiOutlineIdcard className={"fill-amber-500"} size={"1.8rem"}/>
               </div>
 
@@ -80,7 +80,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"friendly"} className={"flex"}>
-              <div id={"icon"} className={"bg-[#FFD9DB] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#FFD9DB] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <VscSmiley className={"fill-red-500"} size={"1.8rem"}/>
               </div>
 
@@ -121,7 +121,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"fully-qualified"} className={"flex mb-6"}>
-              <div id={"icon"} className={"bg-[#E0F3FB] flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#E0F3FB] flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <BsCurrencyDollar className={"fill-sky-500"} size={"1.5rem"}/>
               </div>
 
@@ -137,7 +137,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"experienced"} className={"flex mb-6"}>
-              <div id={"icon"} className={"bg-[#FAECCF] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#FAECCF] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <TfiCreditCard className={"fill-amber-500"} size={"1.8rem"}/>
               </div>
 
@@ -153,7 +153,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"friendly"} className={"flex"}>
-              <div id={"icon"} className={"bg-[#FFD9DB] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#FFD9DB] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <VscSmiley className={"fill-red-500"} size={"1.8rem"}/>
               </div>
 
@@ -186,7 +186,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"fully-qualified"} className={"flex mb-6"}>
-              <div id={"icon"} className={"bg-[#E0F3FB] flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#E0F3FB] flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <TfiCheckBox className={"fill-sky-500"} size={"1.5rem"}/>
               </div>
 
@@ -202,7 +202,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"experienced"} className={"flex mb-6"}>
-              <div id={"icon"} className={"bg-[#FAECCF] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#FAECCF] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <TfiDirection className={"fill-amber-500"} size={"1.8rem"}/>
               </div>
 
@@ -218,7 +218,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"friendly"} className={"flex"}>
-              <div id={"icon"} className={"bg-[#FFD9DB] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#FFD9DB] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <AiOutlineHome className={"fill-red-500"} size={"1.8rem"}/>
               </div>
 
@@ -259,7 +259,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"fully-qualified"} className={"flex mb-6"}>
-              <div id={"icon"} className={"bg-[#E0F3FB] flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#E0F3FB] flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <TfiCup className={"fill-sky-500"} size={"1.5rem"}/>
               </div>
 
@@ -275,7 +275,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"experienced"} className={"flex mb-6"}>
-              <div id={"icon"} className={"bg-[#FAECCF] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#FAECCF] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <BsSearch className={"fill-amber-500"} size={"1.4rem"}/>
               </div>
 
@@ -291,7 +291,7 @@ const WhyGray = () => {
             </div>
 
             <div id={"friendly"} className={"flex"}>
-              <div id={"icon"} className={"bg-[#FFD9DB] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
+              <div id={"icon"} className={"-z-50 bg-[#FFD9DB] opacity-75 flex items-center justify-center rounded-full self-start h-16 w-16 mt-2"}>
                 <TfiCommentAlt className={"fill-red-500"} size={"1.4rem"}/>
               </div>
 

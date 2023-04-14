@@ -88,12 +88,12 @@ const Header = () => {
                             <a href="/our-portfolio" className="pointer-cursor">Digital Marketing</a>
                         </li>
                         <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen3 ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen3(true)} onMouseOut={()=>setIsOpen3(false)}>
-                            <li className={"hover:bg-gray-50 p-3"}>Project Consultancy</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Project Management</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Design & Branding</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Development</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Testing & Debugging</li>
-                            <li className={"hover:bg-gray-50 p-3"}>Hosting & Maintenance</li>
+                        <a href="/ecommerce-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Ecommerce</li></a>
+                                <a href="/elearning-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Learning</li></a>
+                                <a href="/customer-relationship-management-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Customer Relationship Management</li></a>
+                                <a href="/booking-systems-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Booking Systems</li></a>
+                                <a href="/health-care-our-solutions"><li className={"hover:bg-gray-50 p-3"}>HealthCare Systems</li></a>
+                                <a href="/network-section-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Network Platforms</li></a>
                         </ul>
                     </ul>
 

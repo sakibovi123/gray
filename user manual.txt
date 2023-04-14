@@ -1,0 +1,24 @@
+Steps to run this locally:
+
+1. Unzip the file.
+2. run cmd or any command line
+3. Run this:
+
+	npm install
+
+4. Then "npm start"
+
+
+Prerequisite:
+
+1. for npm you must have to install node. To intall node follow this guide:
+
+Download node from this link:  https://nodejs.org/en/download
+
+2. Select the windows or mac LTS version
+3. install it don't select chocolatey (For mac user no need to install chocolatey)
+4. Done. then run the commands from above.
+
+
+
+THANKS
