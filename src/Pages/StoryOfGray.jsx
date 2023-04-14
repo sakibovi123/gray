@@ -1,9 +1,10 @@
+
 import React from 'react'
 import portfolio from "../Assets/Images/journey.webp"
 import early from "../Assets/Images/earlystarted.webp"
 
 
-export const StoryOfGray = () => {
+const StoryOfGray = () => {
   return (
     <div>
         <div className={"bg-gray-100 md:w-full py-0"}>
@@ -128,3 +129,6 @@ export const StoryOfGray = () => {
     </div>
   )
 }
+
+export default StoryOfGray
+

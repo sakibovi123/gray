@@ -13,7 +13,7 @@ import eNetworkingImage from "../../Assets/Images/eNetworking-image-our-solution
 import eHealthImage from "../../Assets/Images/ehealth-image-our-solutions.webp"
 import eHealthIcon from "../../Assets/Images/ehealth-icon-our-solutions.webp"
 
-const OurSolutions = () => {
+const OurSolutionsHome = () => {
   return (
     <div>
       <div id="home-solutions" className="mt-32 px-2 md:px-5 lg:w-10/12 lg:container mx-auto xl:w-10/12 2xl:w-8/12 2xl:container mx-auto 2xl:mt-32">
@@ -416,4 +416,4 @@ const OurSolutions = () => {
   );
 };
 
-export default OurSolutions;
+export default OurSolutionsHome;
