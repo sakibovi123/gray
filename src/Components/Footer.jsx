@@ -10,7 +10,7 @@ const Footer = () => {
                 <p className={"text-2xl md:text-5xl text-center font-semibold text-slate-800"}>
                     Looking for a reliable technology partner to grow your business?
                 </p>
-                <a href="/contact-us" className="md:my-9 duration-500 delay-200 hidden md:flex items-center justify-between font-normal border-2 border-gray-600 p-3 rounded-full hover:bg-gray-600 hover:text-white">
+                <a href="/contact-us" className="md:my-9 duration-500 delay-200 hover:scale-125 hidden md:flex items-center justify-between font-normal border-2 border-gray-600 p-3 rounded-full hover:bg-gray-600 hover:text-white">
                     <span className="iconify text-2xl" data-icon="material-symbols:phone-enabled-outline"></span>
                     Talk To An Expert
                 </a>
@@ -18,22 +18,22 @@ const Footer = () => {
             </div>
             <div className={"flex flex-col items-start justify-between -my-[5rem]"}>
                 <div className={"w-full bg-gray-200 md:h-[120px] flex flex-col md:flex-row items-center justify-center"}>
-                    <a href="/privacy-and-legal" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/privacy-and-legal" className={"my-7 md:mx-7 rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Privacy & Legal
                     </a>
-                    <a href="/story-of-gray" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/story-of-gray" className={"my-7 md:mx-7 rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Story of Gray
                     </a>
-                    <a href="/outsource" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/outsource" className={"my-7 md:mx-7 rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Outsource
                     </a>
-                    <a href="/partnership" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/partnership" className={"my-7 md:mx-7 rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Partnership
                     </a>
-                    <a href="" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="" className={"my-7 md:mx-7 rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Send an Email
                     </a>
-                    <a href="/contact-us" className={"my-7 md:mx-7 bg-white rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
+                    <a href="/contact-us" className={"my-7 md:mx-7 rounded-2xl p-3 text-center hover:bg-gray-600 hover:text-white duration-500 font-semibold"}>
                         Contact us
                     </a>
                 </div>

@@ -14,10 +14,10 @@ const Header = () => {
 
     return (
         <nav className="p-1 bg-white w-full top-0 md:sticky">
-            <div className="container mx-auto flex items-center font-medium justify-between w-full 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full">
+            <div className="nav-items container mx-auto flex items-center font-medium justify-between w-full md:w-[70%]">
                 <div className={"z-50 p-3 md:w-auto w-full flex justify-between"}>
                     <a href="/">
-                        <img src={Logo} alt="logo" className="md:cursor-pointer h-[70px]" />
+                        <img src={Logo} alt="logo" className="md:cursor-pointer h-[60px]" />
                     </a>
 
                     <div className={"md:hidden lg:hidden"} onClick={()=> setOpen(!open)}>
@@ -31,45 +31,36 @@ const Header = () => {
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="material-symbols:work-outline-sharp"></span>
-                            <a href="/about-us" className="pointer-cursor">About us</a>
+                            <a href="/about-us" className="pointer-cursor text-md">About us</a>
                         </li>
                     </ul>
 
-                    <ul className="hover:bg-gray-100 p-3">
-                        <li href="" className="flex flex-row items-center justify-between text-md" onMouseOver={()=>setIsOpen(true)}
-                            onMouseOut={()=>setIsOpen(false)}
-                        >
+                    <ul className="hover:bg-gray-100 p-3" onMouseOver={()=>setIsOpen(true)}>
+                        <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="tabler:award"></span>
-                            <a href="/our-solutions" className="pointer-cursor">Our Solutions</a>
-
+                            <a href="/our-solutions" className="pointer-cursor text-md">Our Solutions</a>
 
                         </li>
-
-
-                            <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen(true)} onMouseOut={()=>setIsOpen(false)}>
-                                <a href="/ecommerce-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Ecommerce</li></a>
-                                <a href="/elearning-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Learning</li></a>
-                                <a href="/customer-relationship-management-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Customer Relationship Management</li></a>
-                                <a href="/booking-systems-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Booking Systems</li></a>
-                                <a href="/health-care-our-solutions"><li className={"hover:bg-gray-50 p-3"}>HealthCare Systems</li></a>
-                                <a href="/network-section-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Network Platforms</li></a>
-                            </ul>
-
-
-
+                        <ul className={`my-[2.2rem] shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen ? "block" : "hidden"} group-hover:block`}
+                        onMouseOut={()=>setIsOpen(false)} >
+                            <a href="/ecommerce-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Ecommerce</li></a>
+                            <a href="/elearning-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Learning</li></a>
+                            <a href="/customer-relationship-management-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Customer Relationship Management</li></a>
+                            <a href="/booking-systems-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Booking Systems</li></a>
+                            <a href="/health-care-our-solutions"><li className={"hover:bg-gray-50 p-3"}>HealthCare Systems</li></a>
+                            <a href="/network-section-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Network Platforms</li></a>
+                        </ul>
                     </ul>
 
-                    <ul className="hover:bg-gray-100 p-3">
-                        <li href="" className="flex flex-row items-center justify-between text-md"
-                            onMouseOver={()=>setIsOpen2(true)}
-                            onMouseOut={()=>setIsOpen2(false)}
-                        >
+                    <ul className="hover:bg-gray-100 p-3" onMouseOver={()=>setIsOpen2(true)}>
+                        <li href="" className="flex flex-row items-center justify-between text-md" onMouseOver={()=>setIsOpen(false)}>
 
                             <span className="iconify mx-2 text-xl" data-icon="material-symbols:handshake-outline"></span>
-                            <a href="/our-services" className="pointer-cursor">Our Services</a>
+                            <a href="/our-services" className="pointer-cursor text-md">Our Services</a>
                         </li>
 
-                        <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen2 ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen2(true)} onMouseOut={()=>setIsOpen2(false)}>
+                        <ul className={`my-[2.3rem] shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen2 ? "block" : "hidden"} group-hover:block`}
+                        onMouseOut={()=>setIsOpen2(false)}>
                             <a href="/project-consultancy-our-services"><li className={"hover:bg-gray-50 p-3"}>Project Consultancy</li></a>
                             <a href="/project-management-our-services"><li className={"hover:bg-gray-50 p-3"}>Project Management</li></a>
                             <a href="/design-and-our-services"><li className={"hover:bg-gray-50 p-3"}>Design & Branding</li></a>
@@ -79,15 +70,15 @@ const Header = () => {
                         </ul>
                     </ul>
 
-                    <ul className="hover:bg-gray-100 p-3">
+                    <ul className="hover:bg-gray-100 p-3" onMouseOver={()=>setIsOpen3(true)}>
                         <li href="" className="flex flex-row items-center justify-between text-md"
-                            onMouseOver={()=>setIsOpen3(true)}
-                            onMouseOut={()=>setIsOpen3(false)}
+                            onMouseOver={()=>setIsOpen2(false)}
+                            
                         >
                             <span className="iconify mx-2 text-xl" data-icon="mdi:book-open-outline"></span>
-                            <a href="/our-portfolio" className="pointer-cursor">Digital Marketing</a>
+                            <a href="/our-portfolio" className="pointer-cursor text-md">Digital Marketing</a>
                         </li>
-                        <ul className={`shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen3 ? "block" : "hidden"} group-hover:block`} onMouseOver={()=>setIsOpen3(true)} onMouseOut={()=>setIsOpen3(false)}>
+                        <ul className={`my-[2.3rem] shadow-xl text-left text-lg p-7 cursor-pointer flex flex-col absolute bg-white ${isOpen3 ? "block" : "hidden"} group-hover:block`} onMouseOut={()=>setIsOpen3(false)}>
                         <a href="/ecommerce-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Ecommerce</li></a>
                                 <a href="/elearning-our-solutions"><li className={"hover:bg-gray-50 p-3"}>E-Learning</li></a>
                                 <a href="/customer-relationship-management-our-solutions"><li className={"hover:bg-gray-50 p-3"}>Customer Relationship Management</li></a>
@@ -100,19 +91,19 @@ const Header = () => {
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="mdi:book-open-outline"></span>
-                            <a href="/our-portfolio" className="pointer-cursor">Portfolio</a>
+                            <a href="/our-portfolio" className="pointer-cursor text-md">Portfolio</a>
                         </li>
                     </ul>
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="fa-solid:laptop-code"></span>
-                            <a href="/career" className="pointer-cursor">Career</a>
+                            <a href="/career" className="pointer-cursor text-md">Career</a>
                         </li>
                     </ul>
                     <ul className="hover:bg-gray-100 p-3">
                         <li href="" className="flex flex-row items-center justify-between text-md">
                             <span className="iconify mx-2 text-xl" data-icon="mdi:blog-outline"></span>
-                            <a href="/blogs" className="pointer-cursor">Blog</a>
+                            <a href="/blogs" className="pointer-cursor text-md">Blog</a>
                         </li>
                     </ul>
                 </div>

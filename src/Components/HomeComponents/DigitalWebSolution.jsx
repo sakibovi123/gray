@@ -4,12 +4,12 @@ import embrace from "../../Assets/Images/embrace-digital-future.webp"
 const DigitalWebSolution = () => {
     return (
         <div className={"my-32"}>
-            <div className={"title-section text-center text-5xl font-semibold text-slate-800"}>
+            <div className={"title-section text-center text-2xl md:text-4xl font-semibold text-slate-800"}>
                 <p>
                     We craft exceptional digital web solutions
                 </p>
             </div>
-            <div className={"container mx-auto w-full md:w-[65%] flex flex-col md:flex-row items-center justify-center my-24 cursor-pointer p-5"}>
+            <div className={"container mx-auto w-full md:w-[63%] flex flex-col md:flex-row items-center justify-center md:my-[3rem] cursor-pointer p-5"}>
                 <div className={"card-section w-full md:w-[22%] lg:w-full p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
@@ -25,7 +25,7 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[310px] p-1.5 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
@@ -46,7 +46,7 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[310px] p-1.5 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
@@ -67,14 +67,14 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[310px] p-1.5 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
                 </div>
             </div>
 
-            <div className={"container mx-auto w-full md:w-[65%] flex flex-col md:flex-row items-center justify-center my-[-100px] cursor-pointer p-5"}>
+            <div className={"container mx-auto w-full md:w-[63%] flex flex-col md:flex-row items-center justify-center my-[-2rem] cursor-pointer p-5"}>
                 <div className={"card-section w-full md:w-[22%] lg:w-full p-3 flex flex-col items-center justify-between rounded-2xl shadow-md hover:shadow-xl bg-white my-3 md:mx-2"}>
                     <div id={"image-section"}>
                         <img src={embrace} alt=""/>
@@ -90,7 +90,7 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[310px] p-1.5 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
@@ -111,7 +111,7 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[310px] p-1.5 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>
@@ -132,7 +132,7 @@ const DigitalWebSolution = () => {
                         </p>
                     </div>
                     <div id={"read-mode-section"} className={"p-5"}>
-                        <button className={"border-2 border-gray-400 w-[300px] p-2 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
+                        <button className={"border-2 border-gray-400 w-[310px] p-1.5 rounded-full hover:text-white hover:bg-gray-800  duration-500"}>
                             Read More
                         </button>
                     </div>

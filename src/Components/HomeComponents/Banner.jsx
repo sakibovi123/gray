@@ -52,16 +52,17 @@ const Banner = () => {
     }, [currentIndex]);
 
     return (
-        <div className={"max-w-[100%] h-[800px] sm:h-[800px] w-full m-auto group"}>
-            <div style={{ backgroundImage: `url(${slides[currentIndex].url})`}} className={"w-full h-full bg-center bg-cover duration-600 md:py-24"}>
-                <div className={"flex flex-col px-5 sm:px-32 items-start justify-center py-24 sm:py-52"}>
-                    <p className={"text-white font-bold text-4xl sm:text-6xl w-full sm:w-[50%]"}>
+        <div className={"max-w-[100%] h-[650px] md:h-[750px] sm:h-[800px] w-full m-auto group"}>
+            <div style={{ backgroundImage: `url(${slides[currentIndex].url})`}}
+             className={"w-full h-full bg-center bg-cover duration-500 md:py-24"}>
+                <div className={"flex flex-col px-5 sm:px-32 items-start justify-center"}>
+                    <p className={"text-white font-bold text-4xl sm:text-6xl w-full sm:w-[50%] my-[3rem]"}>
                         {slides[currentIndex].title}
                     </p>
                     <p className={"text-white font-normal text-xl w-full sm:w-[50%] my-9"}>
                         {slides[currentIndex].subTitle}
                     </p>
-                    <button className={"rounded-2xl text-slate-800 bg-gray-100 p-3 w-[200px] font-semibold"}>
+                    <button className={"rounded-2xl text-slate-800 bg-gray-100 p-3 w-[200px] font-semibold my-[3rem]"}>
                         Read More
                     </button>
 
@@ -76,6 +77,15 @@ const Banner = () => {
                 {/*right arrow*/}
                 <div className={"duration-600 delay-200 hidden group-hover:block absolute top-[50%] sm:top[70%] -translate-x-0 translate-y-[-50%] right-5 rounded-full p-2 bg-black/20 text-white cursor-pointer"}>
                     <BsChevronCompactRight onClick={nextSlide} size={30} />
+                </div>
+
+                <div className="flex justify-center items-center md:my-5 sm:my-[5rem] lg:my-[3rem]">
+                    {slides.map((slide, slideIndex) => (
+                        <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className="text-5xl cursor-pointer text-slate-300">
+                            <RxDotFilled />
+                        </div>
+                        
+                    ))}
                 </div>
 
 
